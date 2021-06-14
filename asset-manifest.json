@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/phosphor/static/css/main.52a3b524.chunk.css",
-    "main.js": "/phosphor/static/js/main.fee12fcc.chunk.js",
-    "main.js.map": "/phosphor/static/js/main.fee12fcc.chunk.js.map",
+    "main.js": "/phosphor/static/js/main.1d0afacb.chunk.js",
+    "main.js.map": "/phosphor/static/js/main.1d0afacb.chunk.js.map",
     "runtime-main.js": "/phosphor/static/js/runtime-main.980b6d63.js",
     "runtime-main.js.map": "/phosphor/static/js/runtime-main.980b6d63.js.map",
     "static/js/2.8b28d920.chunk.js": "/phosphor/static/js/2.8b28d920.chunk.js",
     "static/js/2.8b28d920.chunk.js.map": "/phosphor/static/js/2.8b28d920.chunk.js.map",
     "index.html": "/phosphor/index.html",
-    "precache-manifest.fe13b394f3d7e2b8b763815fc1d9a2f9.js": "/phosphor/precache-manifest.fe13b394f3d7e2b8b763815fc1d9a2f9.js",
+    "precache-manifest.202b4b8429366fc77102a4641e77e8fb.js": "/phosphor/precache-manifest.202b4b8429366fc77102a4641e77e8fb.js",
     "service-worker.js": "/phosphor/service-worker.js",
     "static/css/main.52a3b524.chunk.css.map": "/phosphor/static/css/main.52a3b524.chunk.css.map",
     "static/js/2.8b28d920.chunk.js.LICENSE.txt": "/phosphor/static/js/2.8b28d920.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.980b6d63.js",
     "static/js/2.8b28d920.chunk.js",
     "static/css/main.52a3b524.chunk.css",
-    "static/js/main.fee12fcc.chunk.js"
+    "static/js/main.1d0afacb.chunk.js"
   ]
 }
