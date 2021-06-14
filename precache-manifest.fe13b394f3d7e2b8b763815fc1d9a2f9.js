@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a94721643f72525866be261a0304727e",
+    "revision": "9eceda58ea0a4e31025f983ff73fc37f",
     "url": "/phosphor/index.html"
   },
   {
