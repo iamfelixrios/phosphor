@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9717f699f4ed46a702d827ee5bdb9618",
+    "revision": "f7b7f937ae0e56cd3e8a1c77619f18a2",
     "url": "/phosphor/index.html"
   },
   {
-    "revision": "6740f135ee1b414461e7",
+    "revision": "51586965f2017c531761",
     "url": "/phosphor/static/css/main.52a3b524.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phosphor/static/js/2.8b28d920.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6740f135ee1b414461e7",
-    "url": "/phosphor/static/js/main.af7566fb.chunk.js"
+    "revision": "51586965f2017c531761",
+    "url": "/phosphor/static/js/main.f6084f24.chunk.js"
   },
   {
     "revision": "5c62f6ff5721c579ea5b",
