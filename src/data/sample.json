@@ -8,88 +8,60 @@
             "id": "screen0",
             "type": "screen",
             "content": [
-                { "type": "text", "text": "====== OXISTICK DE CALEB - YEAR 2723, AUG 21 ======", "className": "success" },
-                { "type": "text", "text": "ADN DEL USUARIO NO DETECTADO - ACCESO RESTRINGIDO", "className": "alert" },
-              "CMT GTX-2091 / Battery 53% / STRING PARTICLE RANGE 87%",
-              "Última interacción: Hace 10 horas\n",
-              {
-                "type": "bitmap",
-                "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS37ddradWgwuEWjQ8tHmhmy48GCYz-BI2r5Eh--B4wLIlQaBPwXXzi6qfZhSsSjQxRqBA&usqp=CAU"
-            },
+                { "type": "text", "text": "====== DOSSIER - LA GRANJA ======", "className": "success" },
+                { "type": "text", "text": "ACCESO RESTRINGIDO - DESTRUIR DESPUES DE LEER", "className": "alert" },
+              "CMT GTX-2093 / Batería 81% / RANGO PARTICULAS AFINES 69%",
             "",
             "",
+            "Solo están disponibles las siguientes opciones:\n",
             {
-                "type": "prompt",
-                "prompt": "Introduzca comando > ",
-                "className": "cursor",
-                "commands": [
-                    {
-                        "command": "hack",
-                        "action": {
-                            "type": "dialog",
-                            "target": "dialog1"
-                        }
-                    },
-                    {
-                        "command": "sylvia4ever",
-                        "action": {
-                            "type": "link",
-                            "target": "screen1"
-                        }
-                    },
-                    {
-                        "command": "help",
-                        "action": {
-                            "type": "dialog",
-                            "target": "dialog2"
-                        }
-                    },
-                    {
-                        "command": "?",
-                        "action": {
-                            "type": "dialog",
-                            "target": "dialog2"
-                        }
-                    },
-                    {
-                        "command": "ayuda",
-                        "action": {
-                            "type": "dialog",
-                            "target": "dialog2"
-                        }
-                    }
+                "type": "link",
+                "target": "screen2",
+                "text": "[ INFO ]"
+            },
+            {
+                "type": "link",
+                "target": "screen4",
+                "text": "[ MISION ]"
+            },
+             
 
-                ]
-            }
+            {
+                "type": "link",
+                "target": "screen3",
+                "text": "[ UKKO / UKKA ]"
+            },
+
+            {
+                "type": "link",
+                "target": "screen5",
+                "text": "[ CONTACTO ]"
+            },
+
+            {
+                "type": "link",
+                "target": "screen1",
+                "text": "[ MAPA ]"
+            },
+
+                "\nPulse la opcíón deseada"
             ]
         },
         {
             "id": "screen1",
             "type": "screen",
             "content": [
-                { "type": "text", "text": "MODO DE DEPURACION ACTIVADO", "className": "alert" },
-                "Por favor, ponga en contacto con ADN del propietario para un funcionamiento completo",
+                { "type": "text", "text": ">> MAPA: LA GRANJA", "className": "alert" },
                 "",
-                "Solo están disponibles las siguientes opciones:\n",
                 {
-                    "type": "link",
-                    "target": "screen2",
-                    "text": "[ MENSAJES ]"
+                    "type": "bitmap",
+                    "src": "https://i.ibb.co/g7nbzz5/THA-FARM.jpg"
                 },
+                "",
                 {
                     "type": "link",
-                    "target": "screen5",
-                    "text": "[ CONTACTOS ]"
-                },
-                {
-                    "type": "link",
-                    "target": "screen5",
-                    "text": "[ MEDIA ]"
-                },
-                {
-                    "type": "link",
-                    "target": "screen4",
-                    "text": "[ CREDITOS ]"
+                    "target": "screen0",
+                    "text": "<< VOLVER"
                 }
             ]
         },
@@ -97,102 +69,37 @@
             "id": "screen2",
             "type": "screen",
             "content": [
-                { "type": "text", "text": ">> MENSAJES", "className": "alert" },
+                { "type": "text", "text": ">> INFO: LA GRANJA", "className": "alert" },
                 "\n",
       
+                "Dirigida por la IGLESIA EVANGÉLICA SOLAR (ESC), la granja es el principal productor de alimentos en La Prospero, así como un importante lugar sagrado para los solarianos, con miles de peregrinos que hacen el viaje cada año para ver el árbol Aarnivalkea. Además, La Granja es un importante productor de drogas para la Novo y por ende, para nuestro sindicato. El Alto Jardinero de la iglesia, Ukko/Ukka tiene una estrecha relación con Yandee como única fuente de la droga comercial Sycorax, aunque ultimamente corren rumores de algunas desaveniencias...",
+                "",
+                "El CES (también conocido como Invictus Sol o El Amanecer del Sol Invicto) es una religión politeísta de culto a las estrellas, centrada en la creencia fundamental de que toda la energía del universo procede de las estrellas y que el culto a los dioses del sol es la religión humana más antigua y, por tanto, la ideología que más vincula a la humanidad con sus raíces. Practican la astrología solar, la meditación de los baños de sol, una amplia formación en agricultura e hidroponía y la entrega de semillas a los pobres. Cualquiera puede convertirse en miembro de Invictus Sol aceptando un bindi, grabado a fuego en su cráneo, llamado \"Mancha Solar\", y luego cultivando y manteniendo un pequeño jardín en su casa (a bordo de un barco o de otra manera).",      
                 "",
                 {
                     "type": "link",
-                    "target": "screen2_a",
-                    "text": "[ BANDEJA DE ENTRADA ]"
-                },
-                {
-                    "type": "link",
-                    "target": "screen2_1",
-                    "text": "[ ENVIADOS ]"
-                },
-                "",
-                {
-                    "type": "link",
-                    "target": "screen1",
+                    "target": "screen0",
                     "text": "< ATRAS"
                 }
             ]
         },
         {
-            "id": "screen2_1",
+            "id": "screen3",
             "type": "screen",
             "content": [
-                { "type": "text", "text": "> ELEMENTOS ENVIADOS\n", "className": "alert" },
-        
-                "= PARA: SYLVIA === HACE 10 HORAS ==========\n",
-                "Mi tio me ha amenazado con matarme si no entregamos la mercancia oy, no e dicho nada pero no es tonto ¿sabes?. No se si te importará... espero estes bien... si no te veo de nuevo, kiero ke sepas que te amaré siempre..,\n",
-                "= PARA: SYLVIA === HACE 11 HORAS ==========\n",
-                "HAN SOSPECHADO, EL INTERROGATORIO A SIDO MUY DURO PERO NO E AFLOJADO  ¿Estas bien? Me estoy preocupando mucho. ¿Vas ha venir por mi komo abiamos planeado en caso de emergencia? Estoy donde siempre, me tienen vigilado pero me an dejado mi comunikador para ke intente atraerte a esta trampa... ¡No vengas tu, kariño!. Si tienes contactos pesados, trae el equipo pesado pues Manos de Lansa esta cuidando el restaurant.\n",
-                "= PARA: SYLVIA === HACE 2 DIAS ==========\n",
-                "Te esperé en el punto de enkuentro hacordado y no llegaste ¿Te pasó algo? Se k debió ser así, pues nunka me ubieras dejado esperando.... Trataré de defender la historia del robo asta saber de ti.\n",
+                { "type": "text", "text": ">> UKKO/UKKA: LA GRANJA", "className": "alert" },
+                "",
+                "Alto Jardinero de la iglesia. Orquesta todo en La Granja. Tontamente, dona gran parte de sus ingresos a los habitantes de El Ahogo.",
+                "",
+                {
+                    "type": "bitmap",
+                    "src": "https://i.ibb.co/J2kZtfT/Captura-de-pantalla-2021-06-30-a-las-16-35-55.png"
+                },
+                "",
                 {
                     "type": "link",
-                    "target": "screen2_2",
-                    "text": "SIGUIENTE >"
-                }
-            ]
-        },
-        {
-            "id": "screen2_2",
-            "type": "screen",
-            "content": [
-
-                { "type": "text", "text": "> ELEMENTOS ENVIADOS\n", "className": "alert" },
-                                " = PARA: SYLVIA === HACE 2 DIAS ==========\n",
-                "Listo, eh dejado la mercancia en la parte trasera de HORUS CASINO, recógela mientras aniquilo al resto de mi krew y simulo que me an herido por si a kaso. SUERTE XOXO!!!\n",
-                " = PARA: SYLVIA === HACE 3 DIAS ==========\n",
-                "Estoy muy nervioso ¿Estas segura de ke tu plan es a prueba de fallos? Me ase ilusión eskaparme contigo y hacer una nueva vida juntos (y con tu hermana, claro), pero no se... olvidalo, confio en ti, pequeña.\n",
-                " = PARA: TIO CECIL === HACE 5 DIAS ==========\n",
-                "Gracias por la responsabilidad tio, no te defraudaré ni a ti ni a Stratenmayer.\n",
-               
-                {
-                    "type": "link",
-                    "target": "screen2_3",
-                    "text": "SIGUIENTE >"
-                }
-            ]
-        },
-        {
-            "id": "screen2_3",
-            "type": "screen",
-            "content": [
-
-                { "type": "text", "text": "> ELEMENTOS ENVIADOS\n", "className": "alert" },
-         
-                " = PARA: SYLVIA === HACE 6 DIAS ==========\n",
-                "Eres tan inteligenteee, tu plan suena exelente ¿Segura de ke no prefieres ascender en la organisasión? Serias una teniente de puta madre... Igualmente hoy ablaré con mi tio para ofrecerme a acer la mudanza semanal de la merkancia robada al 32819L. Te kuento esta noche ke tal me fue... Te amo\n",
-                " = PARA: SYLVIA === HACE 6 DIAS ==========\n",
-                "Necesito verte, hoy estube en una extracción muy fuerte y quiero vomitar. Aunke la información es muy valiosa, te kuento en la noche.\n",
-
-                " = FIN DE LOS MENSAJES ==========\n",
-
-                {
-                    "type": "link",
-                    "target": "screen2",
-                    "text": "[TERMINAR]"
-                }
-            ]
-        },
-        {
-            "id": "screen2_a",
-            "type": "screen",
-            "content": [
-
-                { "type": "text", "text": "> BANDEJA DE ENTRADA\n", "className": "alert" },
-         
-                "Borraste los mensajes recibidos hace aprox. 10 horas.\n",
-
-
-                {
-                    "type": "link",
-                    "target": "screen2",
-                    "text": "[VOLVER]"
+                    "target": "screen0",
+                    "text": "<< VOLVER"
                 }
             ]
         },
@@ -200,15 +107,19 @@
             "id": "screen4",
             "type": "screen",
             "content": [
-
-                { "type": "text", "text": "> CREDITOS\n\n", "className": "alert" },
-         
-                "CREDITOS DISPONIBLES: 75.900\n\n",
-                "Opciones dispoinles:\n",
+                { "type": "text", "text": ">> MISION: LA GRANJA", "className": "alert" },
+                "\n",
+                "1. CONTACTAR A NUESTRO AGENTE INFILTRADO",
+                "2. AVERIGUAR QUE ESTA PASANDO CON EL SYCORAX",
+                "3. EVITAR SOSPECHAS DE LA TEMPEST CO.",
+                "4. LA NOVO NO SABE NI DEBE SABER SOBRE NUESTRA INVESTIGACION",
+                "5. REPORTAR TODO LO QUE AVERIGUEIS",
+                "",
+                
                 {
                     "type": "link",
-                    "target": "screen2",
-                    "text": "[ DESCARGAR TODOS LOS CREDITOS ]"
+                    "target": "screen0",
+                    "text": "<< VOLVER"
                 }
             ]
         },
@@ -217,19 +128,24 @@
             "type": "screen",
             "content": [
 
-                { "type": "text", "text": "> MEDIA\n\n\n", "className": "alert" },
+                { "type": "text", "text": ">> CONTACTO: LA GRANJA", "className": "alert" },
+                "KRYSS",
+                "Los Jardines (durante el dia)",
+                { "type": "text", "text": "CODIGO: ¿Es cierto que la flor de valiria requiere hidratacion nocturna?\n", "className": "alert" },
+                "",
                 {
                     "type": "bitmap",
-                    "src": "https://i.ibb.co/zh5vCBn/sylvia.jpg"
+                    "src": "https://i.ibb.co/RjHFpVK/kryss.jpg"
                 },
-                "SYLVIA_04.HPG\n",
+
                 {
                     "type": "link",
-                    "target": "screen2",
-                    "text": "< VOLVER"
+                    "target": "screen0",
+                    "text": "<< VOLVER"
                 }
             ]
         }
+        
     ],
     "dialogs": [
         {
@@ -237,7 +153,7 @@
             "type": "alert",
             "content": [
                 "ARBOL ALFA HALLADO!!!!\n",
-                "==> CLAVE OBTENIDA: SYLVIA4EVER\n",
+                "==> CLAVE OBTENIDA: SYLVIA4EVER\n ",
                 "",
                 "Presione <Enter> para volver"
             ]
@@ -255,7 +171,7 @@
             "id": "dialog2",
             "type": "alert",
             "content": [
-                "WONKI SYSTEM: Usa comando HACK, conectado a librerias de desencriptado.",
+                "WONKI SYSTEM: Usa el comando HACK, las librerias de desencriptado ya están conectadas y listas.",
                 "",
                 "Presione <Enter> para volver"
             ]
